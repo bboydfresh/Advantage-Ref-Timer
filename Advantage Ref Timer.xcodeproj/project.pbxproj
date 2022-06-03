@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D528416284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D528415284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D52841B284A537B008E9B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D52841A284A537B008E9B16 /* Assets.xcassets */; };
+		4D528421284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D528420284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D528426284A537B008E9B16 /* Advantage_Ref_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D528425284A537B008E9B16 /* Advantage_Ref_TimerApp.swift */; };
+		4D528428284A537B008E9B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D528427284A537B008E9B16 /* ContentView.swift */; };
+		4D52842A284A537B008E9B16 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D528429284A537B008E9B16 /* NotificationController.swift */; };
+		4D52842C284A537B008E9B16 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52842B284A537B008E9B16 /* NotificationView.swift */; };
+		4D52842E284A537B008E9B16 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52842D284A537B008E9B16 /* ComplicationController.swift */; };
+		4D528430284A537C008E9B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D52842F284A537C008E9B16 /* Assets.xcassets */; };
+		4D528433284A537C008E9B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D528432284A537C008E9B16 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D528417284A537A008E9B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D52840B284A537A008E9B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D528414284A537A008E9B16;
+			remoteInfo = "Advantage Ref Timer WatchKit App";
+		};
+		4D528422284A537B008E9B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D52840B284A537A008E9B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D52841F284A537B008E9B16;
+			remoteInfo = "Advantage Ref Timer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D52843B284A537C008E9B16 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D528421284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D52843F284A537C008E9B16 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4D528416284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D528411284A537A008E9B16 /* Advantage Ref Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advantage Ref Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D528415284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advantage Ref Timer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D52841A284A537B008E9B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D528420284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Advantage Ref Timer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D528425284A537B008E9B16 /* Advantage_Ref_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advantage_Ref_TimerApp.swift; sourceTree = "<group>"; };
+		4D528427284A537B008E9B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D528429284A537B008E9B16 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4D52842B284A537B008E9B16 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		4D52842D284A537B008E9B16 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		4D52842F284A537C008E9B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D528432284A537C008E9B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D528434284A537C008E9B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D528435284A537C008E9B16 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D52841D284A537B008E9B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D52840A284A537A008E9B16 = {
+			isa = PBXGroup;
+			children = (
+				4D528419284A537A008E9B16 /* Advantage Ref Timer WatchKit App */,
+				4D528424284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension */,
+				4D528412284A537A008E9B16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D528412284A537A008E9B16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D528411284A537A008E9B16 /* Advantage Ref Timer.app */,
+				4D528415284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app */,
+				4D528420284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D528419284A537A008E9B16 /* Advantage Ref Timer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4D52841A284A537B008E9B16 /* Assets.xcassets */,
+			);
+			path = "Advantage Ref Timer WatchKit App";
+			sourceTree = "<group>";
+		};
+		4D528424284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D528425284A537B008E9B16 /* Advantage_Ref_TimerApp.swift */,
+				4D528427284A537B008E9B16 /* ContentView.swift */,
+				4D528429284A537B008E9B16 /* NotificationController.swift */,
+				4D52842B284A537B008E9B16 /* NotificationView.swift */,
+				4D52842D284A537B008E9B16 /* ComplicationController.swift */,
+				4D52842F284A537C008E9B16 /* Assets.xcassets */,
+				4D528434284A537C008E9B16 /* Info.plist */,
+				4D528435284A537C008E9B16 /* PushNotificationPayload.apns */,
+				4D528431284A537C008E9B16 /* Preview Content */,
+			);
+			path = "Advantage Ref Timer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4D528431284A537C008E9B16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D528432284A537C008E9B16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D528410284A537A008E9B16 /* Advantage Ref Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D528440284A537C008E9B16 /* Build configuration list for PBXNativeTarget "Advantage Ref Timer" */;
+			buildPhases = (
+				4D52840F284A537A008E9B16 /* Resources */,
+				4D52843F284A537C008E9B16 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D528418284A537A008E9B16 /* PBXTargetDependency */,
+			);
+			name = "Advantage Ref Timer";
+			productName = "Advantage Ref Timer";
+			productReference = 4D528411284A537A008E9B16 /* Advantage Ref Timer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4D528414284A537A008E9B16 /* Advantage Ref Timer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D52843C284A537C008E9B16 /* Build configuration list for PBXNativeTarget "Advantage Ref Timer WatchKit App" */;
+			buildPhases = (
+				4D528413284A537A008E9B16 /* Resources */,
+				4D52843B284A537C008E9B16 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D528423284A537B008E9B16 /* PBXTargetDependency */,
+			);
+			name = "Advantage Ref Timer WatchKit App";
+			productName = "Advantage Ref Timer WatchKit App";
+			productReference = 4D528415284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4D52841F284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D528438284A537C008E9B16 /* Build configuration list for PBXNativeTarget "Advantage Ref Timer WatchKit Extension" */;
+			buildPhases = (
+				4D52841C284A537B008E9B16 /* Sources */,
+				4D52841D284A537B008E9B16 /* Frameworks */,
+				4D52841E284A537B008E9B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advantage Ref Timer WatchKit Extension";
+			productName = "Advantage Ref Timer WatchKit Extension";
+			productReference = 4D528420284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D52840B284A537A008E9B16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4D528410284A537A008E9B16 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4D528414284A537A008E9B16 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4D52841F284A537B008E9B16 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 4D52840E284A537A008E9B16 /* Build configuration list for PBXProject "Advantage Ref Timer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D52840A284A537A008E9B16;
+			productRefGroup = 4D528412284A537A008E9B16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D528410284A537A008E9B16 /* Advantage Ref Timer */,
+				4D528414284A537A008E9B16 /* Advantage Ref Timer WatchKit App */,
+				4D52841F284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D52840F284A537A008E9B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D528413284A537A008E9B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52841B284A537B008E9B16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D52841E284A537B008E9B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D528433284A537C008E9B16 /* Preview Assets.xcassets in Resources */,
+				4D528430284A537C008E9B16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D52841C284A537B008E9B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52842A284A537B008E9B16 /* NotificationController.swift in Sources */,
+				4D528428284A537B008E9B16 /* ContentView.swift in Sources */,
+				4D52842E284A537B008E9B16 /* ComplicationController.swift in Sources */,
+				4D528426284A537B008E9B16 /* Advantage_Ref_TimerApp.swift in Sources */,
+				4D52842C284A537B008E9B16 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D528418284A537A008E9B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D528414284A537A008E9B16 /* Advantage Ref Timer WatchKit App */;
+			targetProxy = 4D528417284A537A008E9B16 /* PBXContainerItemProxy */;
+		};
+		4D528423284A537B008E9B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D52841F284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension */;
+			targetProxy = 4D528422284A537B008E9B16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D528436284A537C008E9B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D528437284A537C008E9B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D528439284A537C008E9B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advantage Ref Timer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = AMJ42PQPUD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Advantage Ref Timer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Advantage Ref Timer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donalddang.Advantage-Ref-Timer.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		4D52843A284A537C008E9B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advantage Ref Timer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = AMJ42PQPUD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Advantage Ref Timer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Advantage Ref Timer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donalddang.Advantage-Ref-Timer.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		4D52843D284A537C008E9B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMJ42PQPUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Advantage_Ref_Timer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advantage Ref Timer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donalddang.Advantage-Ref-Timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		4D52843E284A537C008E9B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMJ42PQPUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Advantage_Ref_Timer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advantage Ref Timer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donalddang.Advantage-Ref-Timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		4D528441284A537C008E9B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMJ42PQPUD;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donalddang.Advantage-Ref-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D528442284A537C008E9B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AMJ42PQPUD;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donalddang.Advantage-Ref-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D52840E284A537A008E9B16 /* Build configuration list for PBXProject "Advantage Ref Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D528436284A537C008E9B16 /* Debug */,
+				4D528437284A537C008E9B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D528438284A537C008E9B16 /* Build configuration list for PBXNativeTarget "Advantage Ref Timer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D528439284A537C008E9B16 /* Debug */,
+				4D52843A284A537C008E9B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D52843C284A537C008E9B16 /* Build configuration list for PBXNativeTarget "Advantage Ref Timer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D52843D284A537C008E9B16 /* Debug */,
+				4D52843E284A537C008E9B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D528440284A537C008E9B16 /* Build configuration list for PBXNativeTarget "Advantage Ref Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D528441284A537C008E9B16 /* Debug */,
+				4D528442284A537C008E9B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D52840B284A537A008E9B16 /* Project object */;
+}
