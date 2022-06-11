@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D528416284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D528415284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4D52841B284A537B008E9B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D52841A284A537B008E9B16 /* Assets.xcassets */; };
 		4D528421284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D528420284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D528426284A537B008E9B16 /* Advantage_Ref_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D528425284A537B008E9B16 /* Advantage_Ref_TimerApp.swift */; };
 		4D528428284A537B008E9B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D528427284A537B008E9B16 /* ContentView.swift */; };
@@ -17,6 +16,7 @@
 		4D52842E284A537B008E9B16 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52842D284A537B008E9B16 /* ComplicationController.swift */; };
 		4D528430284A537C008E9B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D52842F284A537C008E9B16 /* Assets.xcassets */; };
 		4D528433284A537C008E9B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D528432284A537C008E9B16 /* Preview Assets.xcassets */; };
+		4D528444284C0691008E9B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D528443284C0691008E9B16 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,6 @@
 /* Begin PBXFileReference section */
 		4D528411284A537A008E9B16 /* Advantage Ref Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advantage Ref Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D528415284A537A008E9B16 /* Advantage Ref Timer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advantage Ref Timer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D52841A284A537B008E9B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D528420284A537B008E9B16 /* Advantage Ref Timer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Advantage Ref Timer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D528425284A537B008E9B16 /* Advantage_Ref_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advantage_Ref_TimerApp.swift; sourceTree = "<group>"; };
 		4D528427284A537B008E9B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		4D528432284A537C008E9B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D528434284A537C008E9B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D528435284A537C008E9B16 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4D528443284C0691008E9B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Users/donalddang/Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		4D528419284A537A008E9B16 /* Advantage Ref Timer WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				4D52841A284A537B008E9B16 /* Assets.xcassets */,
+				4D528443284C0691008E9B16 /* Assets.xcassets */,
 			);
 			path = "Advantage Ref Timer WatchKit App";
 			sourceTree = "<group>";
@@ -246,7 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D52841B284A537B008E9B16 /* Assets.xcassets in Resources */,
+				4D528444284C0691008E9B16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +346,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Debug;
 		};
@@ -399,6 +400,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
 		};
@@ -472,6 +474,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AMJ42PQPUD;
@@ -497,6 +500,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AMJ42PQPUD;
